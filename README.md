@@ -16,7 +16,7 @@ This repository contains a Google Colab Notebook and associated files for traini
 
 A labeled dataset in YOLO format is required.
 
-[IMPORTANT] Download the dataset from [https://universe.roboflow.com/cpe313-mtad2/trapmos].
+Download the dataset from [https://universe.roboflow.com/cpe313-mtad2/trapmos](here).
 
 Once downloaded, unzip the dataset and upload this to Google Drive.
 
@@ -25,22 +25,22 @@ Once downloaded, unzip the dataset and upload this to Google Drive.
 Google Drive structure should look like this:
 
 My Drive/
-└── project_dir/
-    ├── MAST_Cloudnet_notebook.ipynb
-    ├── dataset/
-    │   ├── data.yaml
-    │   ├── images/
-    │   └── labels/
-    └── images/
-        └── inference_image.jpg
+|-- project_dir/
+    |-- MAST_Cloudnet_notebook.ipynb
+    |-- dataset/
+    |   |-- data.yaml
+    |   |-- images/
+    |   |-- labels/
+    |-- images/
+        |-- inference_image.jpg
 ## Usage
 Open the notebook in Google Colab:
 1. Navigate to project_dir in Google Drive.
 2. Double-click on MAST_Cloudnet_colab_notebook.ipynb to open it with Google Colab.
 3. Execute the cells in the notebook sequentially to perform the following steps:
     - Initialization: Installs and checks the Ultralytics environment.
-    - Training: Trains the YOLO model. Training progress and logs will be saved to a runs/ directory within your Google Drive project folder.
+    - Training: Trains the YOLO model. Training progress and logs will be saved to /content/runs/ directory.
     - Validation: Evaluates the best-performing model (best.pt).
-    - Detection: Runs inference on your test images.
+    - Detection: Runs inference on images from the images/ directory.
 
 
