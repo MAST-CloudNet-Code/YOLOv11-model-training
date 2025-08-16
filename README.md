@@ -24,15 +24,17 @@ Once downloaded, unzip the dataset and upload this to Google Drive.
 
 Google Drive structure should look like this:
 
+```
 My Drive/
-|-- project_dir/  
-    |-- MAST_Cloudnet_notebook.ipynb  
-    |-- dataset/  
-    |   |-- data.yaml  
-    |   |-- images/  
-    |   |-- labels/
-    |-- images/  
-        |-- inference_image.jpg  
+└── project_dir/
+├── MAST_Cloudnet_notebook.ipynb
+├── dataset/
+│   ├── data.yaml
+│   ├── images/
+│   └── labels/
+└── images/
+└── inference_image.jpg
+```
 ## Usage
 Open the notebook in Google Colab:
 1. Navigate to project_dir in Google Drive.
